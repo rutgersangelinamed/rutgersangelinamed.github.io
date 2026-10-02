@@ -5,140 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angelina Medina - Portfolio</title>
     <style>
+        /* Design & Usability: Clean, easy to navigate, visually appealing[cite: 3] */
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             line-height: 1.6; 
             margin: 0; 
             padding: 0; 
-            background-color: #f4f6f8; 
+            background-color: #f8f9fa; 
             color: #333; 
         }
-        header { 
-            background: #1a365d; 
-            color: #ffffff; 
-            padding: 40px 20px; 
-            text-align: center; 
-        }
-        header img { 
-            border-radius: 50%; 
-            width: 180px; 
-            height: 180px; 
-            object-fit: cover; 
-            border: 4px solid #e2e8f0; 
-            margin-bottom: 15px;
-        }
-        header h1 { 
-            margin: 0 0 10px 0; 
-            font-size: 2.5em;
-        }
-        .contact-info { 
-            font-size: 1em; 
-            color: #a0aec0;
-        }
         .container { 
-            width: 85%; 
-            max-width: 900px;
-            margin: auto; 
-            padding: 20px; 
-        }
-        section { 
+            max-width: 800px; 
+            margin: 40px auto; 
             background: #ffffff; 
-            margin: 25px 0; 
             padding: 30px; 
-            border-radius: 8px; 
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            border-radius: 10px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
         }
-        h2 { 
-            color: #2d3748; 
-            border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 10px;
-            margin-top: 0;
+        .header { 
+            text-align: center; 
+            border-bottom: 2px solid #dee2e6; 
+            padding-bottom: 20px; 
+            margin-bottom: 20px; 
         }
-        ul.skills-list { 
-            column-count: 2;
-            padding-left: 20px; 
+        .header img { 
+            max-width: 150px; 
+            border-radius: 50%; 
+            border: 3px solid #cc0033; /* Rutgers Red */
+            margin-bottom: 15px; 
         }
-        ul.skills-list li {
-            margin-bottom: 8px;
+        h1, h2, h3 { color: #cc0033; }
+        .section { margin-bottom: 30px; }
+        .skills-list { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            list-style-type: none; 
+            padding: 0; 
+        }
+        .skills-list li { 
+            background: #343a40; 
+            color: #fff; 
+            padding: 8px 12px; 
+            border-radius: 5px; 
+            font-size: 0.9em; 
         }
         .project { 
-            margin-bottom: 25px; 
+            background: #f8f9fa; 
+            padding: 20px; 
+            margin-bottom: 15px; 
+            border-left: 5px solid #cc0033; 
+            border-radius: 5px; 
         }
-        .project:last-child {
-            margin-bottom: 0;
-        }
-        .project h3 { 
-            margin: 0 0 5px 0; 
-            color: #2b6cb0;
-        }
-        .project span.date {
-            font-size: 0.9em;
-            color: #718096;
-            font-style: italic;
-            display: block;
-            margin-bottom: 10px;
-        }
-        p {
-            margin: 0 0 10px 0;
-        }
+        a { color: #0056b3; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        .statement { font-size: 1.1em; font-style: italic; color: #555; }
     </style>
 </head>
 <body>
-
-    <header>
-        <img src="headshot.jpg" alt="Angelina Medina">
-        <h1>Angelina Medina</h1>
-        <div class="contact-info">
-            Flemington, NJ, 08822 | (908) 422-8903 | angelinamed0608@gmail.com
-        </div>
-    </header>
-
     <div class="container">
         
-        <!-- Personal Statement -->
-        <section id="about">
-            <h2>Personal Statement</h2>
-            <p>I am a dedicated Finance student at Rutgers Business School with a proven track record in customer support, team collaboration, and efficient organizational operations.</p>
-        </section>
+        <!-- Header & Personal Statement[cite: 3] -->
+        <div class="header">
+            <img src="headshot.jpg" alt="Angelina Medina Headshot"> <!--[cite: 2] -->
+            <h1>Angelina Medina[cite: 1]</h1>
+            <p class="statement">I am a dedicated Finance student at Rutgers Business School and an EOF Scholar, leveraging my adaptability and strong communication skills to deliver exceptional customer service and organizational support.[cite: 1]</p>
+            <p>New Brunswick, NJ | angelinamed0608@gmail.com | (908) 422-8903[cite: 1]</p>
+        </div>
 
-        <!-- Skills Showcase -->
-        <section id="skills">
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Rutgers Business School, Rutgers, The State University of New Jersey</strong> - New Brunswick, NJ[cite: 1]<br>
+            Bachelor’s Degree, Finance (May 2029) | GPA: 3.4[cite: 1]<br>
+            <em>RBS EOF Scholar, FirstGenU Alumni</em>[cite: 1]</p>
+        </div>
+
+        <!-- Skills Showcase[cite: 3] -->
+        <div class="section">
             <h2>Skills Showcase</h2>
             <ul class="skills-list">
-                <li>Problem-Solving & Adaptability</li>
-                <li>Creativity & Flexibility</li>
-                <li>Collaborative Skills & Teamwork</li>
-                <li>Emotional Intelligence & Empathy</li>
-                <li>Customer Service & Support</li>
-                <li>Hard-Working & Diligent</li>
-                <li>Time Management & Organization</li>
+                <li>Problem-Solving & Adaptability[cite: 1]</li>
+                <li>Creativity & Flexibility[cite: 1]</li>
+                <li>Collaborative Skills & Teamwork[cite: 1]</li>
+                <li>Emotional Intelligence & Empathy[cite: 1]</li>
+                <li>Customer Service & Support[cite: 1]</li>
+                <li>Hard-Working & Diligent[cite: 1]</li>
+                <li>Time Management & Organization[cite: 1]</li>
             </ul>
-        </section>
+        </div>
 
-        <!-- Projects / Experience Section -->
-        <section id="projects">
-            <h2>Experience & Projects</h2>
+        <!-- Projects Section[cite: 3] -->
+        <div class="section">
+            <h2>Professional Projects & Experience</h2>
             
             <div class="project">
-                <h3>Library Assistant - Rutgers University Libraries</h3>
-                <span class="date">Sep 2025 - Present</span>
-                <p>Provided direct customer service and coordinated with management and peers to ensure efficient library operations. Located and retrieved requested materials utilizing integrated library systems and organized inventory to resolve discrepancies.</p>
+                <h3>Project 1: Starbucks Customer Experience Management[cite: 1]</h3>
+                <p><strong>Location:</strong> <a href="https://www.starbucks.com/store-locator/store/13180/flemington-route-31-church-st-285-us-hwy-202-31-flemington-nj-088221721-us" target="_blank">Starbucks Coffee Company, Flemington, NJ</a></p>
+                <p><strong>Duration:</strong> July 2026 - Present[cite: 1]</p>
+                <p><strong>Summary:</strong> Responsible for the execution of all drink choices on Starbucks menu.[cite: 1] Demonstrated the ability to multitask in a fast-paced, high-demand environment.[cite: 1] Personally oversaw the customer experience to meet customer needs.[cite: 1]</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 2: Rutgers University Libraries Operations[cite: 1]</h3>
+                <p><strong>Location:</strong> <a href="https://www.libraries.rutgers.edu/new-brunswick/visit-study/locations/alexander-library" target="_blank">Archibald S. Alexander Library, New Brunswick, NJ</a></p>
+                <p><strong>Duration:</strong> Sep 2025 - Present[cite: 1]</p>
+                <p><strong>Summary:</strong> Provided direct customer service and support using varied engagement strategies.[cite: 1] Coordinated with management, peers, and patrons to ensure efficient library operations.[cite: 1] Located and retrieved requested materials utilizing integrated library systems and organized inventory to resolve discrepancies.[cite: 1]</p>
             </div>
             
-            <div class="project">
-                <h3>Barista - Starbucks Coffee Company</h3>
-                <span class="date">July 2026 - Present</span>
-                <p>Execute all drink choices on the menu while multitasking in a fast-paced, high-demand environment. Personally oversee the customer experience to meet needs and ensure satisfaction.</p>
-            </div>
-
-            <div class="project">
-                <h3>Community Education & Leadership Initiatives</h3>
-                <span class="date">Community Service</span>
-                <p>Volunteered as a Sunday School teacher to develop and implement engaging learning activities for elementary-grade children. Previously supervised the design and layout of yearbook materials and cooperated in planning school-wide events.</p>
-            </div>
-
-        </section>
+        </div>
+        
     </div>
-
 </body>
 </html>
